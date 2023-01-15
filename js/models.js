@@ -191,6 +191,21 @@ class User {
     );
   }
 
+  // if user not logged in dont show add story or favorite stories options in nav
+  // remove stories should only work if user logged in
+  // remove siugnup form after login
+  // posts either slide down and back up or just disappear when signing up/submitting story
+  // submitting story should make form disappear
+  // latest stories on top
+  // indicate what state each one is in
+  // removed stories coming back after refresh
+  // get into hackernews
+  // should only show remove button for stories user wrote
+  // program should yhandle API errors and display something to user
+  // trash bin for remove
+  // heart icon for favorite
+  // fontAwesome library is CSS classes
+
   /** Login in user with API, make User instance & return it. // QUESTION: So this is actually creating a new user instance every time, even after they have already signed up?
 
    * - username: an existing user's username
